@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imagePok"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:background="@drawable/img_launcher_background"
+            tools:srcCompat="@tools:sample/avatars"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:pointerIcon="cell"
+            android:elevation="60dp"/>
+
+        <TextView
+            android:gravity="center"
+            android:textColor="#03A9F4"
+            android:textStyle="bold"
+            android:id="@+id/textName"
+            android:layout_width="300dp"
+            android:layout_margin="30dp"
+            android:layout_height="50dp"
+            android:text="TextView"
+            android:background="@drawable/img_launcher_background"
+            android:textSize="16sp"
+            android:elevation="20dp"
+            />
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/progressIndex"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginRight="20dp"
+            app:indicatorColor="#F10E0E"
+            app:trackColor="#E1E1E1"
+            app:trackCornerRadius="100dp"
+            app:trackThickness="22dp" />
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/exp"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginRight="20dp"
+            app:indicatorColor="#F10E0E"
+            app:trackColor="#E1E1E1"
+            app:trackCornerRadius="100dp"
+            app:trackThickness="22dp" />
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/exp2"
+            android:layout_width="318dp"
+            android:layout_height="12dp"
+            android:layout_margin="10dp"
+            android:layout_marginRight="20dp"
+            app:indicatorColor="#F10E0E"
+            app:trackColor="#E1E1E1"
+            app:trackCornerRadius="100dp"
+            app:trackThickness="22dp" />
+
+
+
+    </LinearLayout>
+</RelativeLayout>
